@@ -47,6 +47,5 @@
 .nav-left-list-link:hover {
     color: var(--secondary-red);
     border-bottom: 3px solid var(--secondary-red);
-    transition-duration: 250ms;
-    text-transform: uppercase;
+    transition-duration: 350ms;
 }
