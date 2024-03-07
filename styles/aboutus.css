@@ -1,0 +1,26 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7em 0;
+    font-family: var(--inter);
+}
+
+.about-subtitle {
+    font-weight: 600;
+    color: var(--secondary-red);
+}
+
+.about-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--dark-blue);
+    margin: .5em 0 1em 0;
+}
+
+.about-text {
+    font-size: 20px;
+    color: var(--grey);
+    width: 43%;
+    text-align: center;
+}

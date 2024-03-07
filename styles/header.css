@@ -23,6 +23,13 @@
     color: var(--grey);
     font-family: var(--inter);
     font-weight: 500;
+
+}
+
+.nav-left-list-link:hover {
+    color: var(--secondary-red);
+    border-bottom: 3px solid var(--secondary-red);
+    transition-duration: 350ms;
 }
 
 .nav-right {
@@ -32,20 +39,16 @@
 
 .nav-right-red-button {
     background-color: var(--secondary-red);
+    border: 1px solid var(--secondary-red);
     color: var(--white);
     padding: 1em;
     border-radius: 8px;
+    transition-duration: 350ms;
 }
 
 .nav-right-red-button:hover {
     color: var(--dark-blue);
-    background-color: var(--salmao);
+    background-color: var(--light-pink);
     border: 1px solid var(--dark-blue);
-    transition-duration: 250ms;
-}
-
-.nav-left-list-link:hover {
-    color: var(--secondary-red);
-    border-bottom: 3px solid var(--secondary-red);
     transition-duration: 350ms;
 }

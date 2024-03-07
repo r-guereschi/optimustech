@@ -1,0 +1,28 @@
+.stats {
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--inter);
+    padding: 0 8em;
+}
+
+.stats-container {
+    width: 15%;
+}
+
+.stats-container-title {
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--secondary-red);
+}
+
+.stats-container-subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--dark-blue);
+    margin: 1.3em 0;
+}
+
+.stats-container-text {
+    color: var(--grey);
+    line-height: 30px;
+}
