@@ -4,6 +4,7 @@
 @import url(styles/stats.css);
 @import url(styles/vagas.css);
 @import url(styles/position.css);
+@import url(styles/banner.css);
 
 :root {
     --background-color: #fff;
