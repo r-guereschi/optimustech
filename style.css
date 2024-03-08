@@ -2,6 +2,8 @@
 @import url(styles/header.css);
 @import url(styles/aboutus.css);
 @import url(styles/stats.css);
+@import url(styles/vagas.css);
+@import url(styles/position.css);
 
 :root {
     --background-color: #fff;
