@@ -37,7 +37,7 @@
     align-items: center;
 }
 
-.nav-right-red-button {
+#nav-right-red-button {
     background-color: var(--secondary-red);
     border: 1px solid var(--secondary-red);
     color: var(--white);
@@ -46,7 +46,7 @@
     transition-duration: 350ms;
 }
 
-.nav-right-red-button:hover {
+#nav-right-red-button:hover {
     color: var(--dark-blue);
     background-color: var(--light-pink);
     border: 1px solid var(--dark-blue);
