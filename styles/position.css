@@ -20,12 +20,18 @@
     padding: 1em 2em;
     border-radius: 16px;
     width: 55%;
+    transition-duration: 350ms;
+}
+
+.position-card:hover {
+    background-color: rgb(66, 0, 0);
+    color: white;
+    transition-duration: 350ms;
 }
 
 .position-function {
     font-weight: 500;
     font-size: 18px;
-    color: var(--dark-blue);
 }
 
 .position-text {
@@ -35,4 +41,10 @@
 
 #position-second-title {
     margin-top: 2em;
+}
+
+.position-a {
+    text-decoration: none;
+    color: var(--dark-blue);
+    width: 100%;
 }
